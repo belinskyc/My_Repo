@@ -21,9 +21,12 @@ theme_ugly = function()
   return(newTheme);
 }
 
-modifyGeoms = function()
+
+#### added a line here
+
+modifyGeoms =()
 { 
-  update_geom_defaults("line", list(color = "yellow",
+  update_geom_defaults("square", list(color = "yellow",
                                     fill = "black"));
   update_geom_defaults("point", list(color = "green"));
   update_geom_defaults("smooth", list(color = "red",
