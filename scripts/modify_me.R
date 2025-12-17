@@ -2,7 +2,7 @@ theme_ugly = function()
 {
   ### Added this line
   ## Create an object and include everything from theme_bw()
-  newTheme = theme_bw() +     
+  newTheme = theme_this_theme() +     
 
   ## then modify theme_bw() with the seven subcomponents below
     theme(panel.background = element_rect(fill="grey25",
@@ -18,7 +18,7 @@ theme_ugly = function()
   
   ### return newTheme to the caller
   ##  You could take this line out -- but it is bad programming practice...
-  return(newTheme);
+  return(newTheme);  #### added a comment
 }
 
 
@@ -33,4 +33,9 @@ modifyGeoms =()
                                       linetype=4,
                                       linewidth=2,
                                       fill="lightblue"));
+  ##hdufgkdfj
+  ksjhgfdsakhea
+  drghktrjhi
+  
+  
 }
